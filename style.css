@@ -94,9 +94,10 @@ body {
 .pull-right form {
   width: 14em;
   height: 2em;
-  margin: 0.5em 0.9em 0 0;
-  display: inline;
+  margin: 0 0.9em 0 0;
+  display: inline-block;
   position: relative;
+  top: -0.5em;
 }
 
 .pull-right input {
@@ -119,8 +120,9 @@ body {
 }
 
 .pull-right span {
-  height: 3em;
+  height: 2em;
   margin: 0.5em 0 0 0;
+  display: inline-block;
 }
 
 .pull-right i {
@@ -138,7 +140,7 @@ body {
 .pull-right .search-icon {
   color: #FFF;
   position: absolute;
-  top: 3px;
+  top: 7px;
   left: 190px;
 }
 
